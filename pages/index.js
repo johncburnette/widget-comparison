@@ -122,8 +122,15 @@ export default function Home({
         </p>
         <div className="sm:p-5 lg:p-20">
           <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-2">
-            <div>{performanteItems}</div>
-            <div>{sbinnalaItems}</div>
+            <div>
+              <h3 className="px-5 text-2xl font-bold">Current Ad Code</h3>
+              {performanteItems}
+            </div>
+
+            <div>
+              <h3 className="px-5 text-2xl font-bold">New Ad Code</h3>
+              {sbinnalaItems}
+            </div>
           </div>
         </div>
       </div>
