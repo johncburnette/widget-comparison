@@ -52,7 +52,9 @@ export default function Home({
       <Grid.Container gap={2}>
         <Grid direction="column">
           <Grid>
-            <Text h1>Web performance is pretty neat, let's talk about it.</Text>
+            <Text h1>
+              Web performance is pretty neat, let&apos;s talk about it.
+            </Text>
             <Text size={22}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
