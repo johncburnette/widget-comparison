@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         padding: 0
       }}>
       <Navigation />
-      {children}
+      <Container>{children}</Container>
     </Container>
   );
 };

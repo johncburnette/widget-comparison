@@ -10,7 +10,7 @@ const allowedCategories = [
   'network-server-latency'
 ];
 
-export async function getData(type) {
+export async function getLighthouseData(type) {
   const data = await import(`../../public/json/${type}.json`);
 
   const {
@@ -30,7 +30,7 @@ export async function getData(type) {
 
 export default async function handler(req, res) {
   const { type } = req.query;
-  const response = await getData(type);
+  const response = await getLighthouseData(type);
 
   res.json(response);
 }

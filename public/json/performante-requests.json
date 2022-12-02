@@ -1,0 +1,2674 @@
+{
+   "log" : {
+      "browser" : {
+         "name" : "Chrome",
+         "version" : "103.0.5060.134"
+      },
+      "creator" : {
+         "name" : "GTmetrix",
+         "version" : "0.2"
+      },
+      "entries" : [
+         {
+            "cache" : {},
+            "connection" : "61",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept",
+                     "value" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+                  },
+                  {
+                     "name" : "Accept-Encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "Accept-Language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Host",
+                     "value" : "code.revcontent.com"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Dest",
+                     "value" : "document"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Mode",
+                     "value" : "navigate"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Site",
+                     "value" : "none"
+                  },
+                  {
+                     "name" : "Sec-Fetch-User",
+                     "value" : "?1"
+                  },
+                  {
+                     "name" : "Upgrade-Insecure-Requests",
+                     "value" : "1"
+                  },
+                  {
+                     "name" : "User-Agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "method" : "GET",
+               "queryString" : [
+                  {
+                     "name" : "w",
+                     "value" : "272291"
+                  },
+                  {
+                     "name" : "disable_demand",
+                     "value" : "true"
+                  }
+               ],
+               "url" : "https://code.revcontent.com/performante/?w=272291&disable_demand=true"
+            },
+            "response" : {
+               "bodySize" : 22846,
+               "content" : {
+                  "mimeType" : "text/html; charset=UTF-8",
+                  "size" : 22846,
+                  "text" : "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <title>Widget Template</title>\n  <meta property=\"og:title\" content=\"Oculus\">\n  <style>body{font-family:Open Sans,sans-serif;margin:0}.content{max-width:1100px;position:relative;margin:80px auto}</style>\n\n<!-- <script type=\"application/javascript\">-->\n<!--    function sleep(ms) {-->\n<!--      return new Promise(resolve => setTimeout(resolve, ms));-->\n<!--    }-->\n\n<!--    function getCookie(cname) {-->\n<!--      var name = cname + \"=\";-->\n<!--      var decodedCookie = decodeURIComponent(document.cookie);-->\n<!--      var ca = decodedCookie.split(';');-->\n<!--      for(var i = 0; i <ca.length; i++) {-->\n<!--        var c = ca[i];-->\n<!--        while (c.charAt(0) == ' ') {-->\n<!--          c = c.substring(1);-->\n<!--        }-->\n<!--        if (c.indexOf(name) == 0) {-->\n<!--          return c.substring(name.length, c.length);-->\n<!--        }-->\n<!--      }-->\n<!--      return \"\";-->\n<... [truncated to save space (21822 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept-Ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Content-Length",
+                     "value" : "22846"
+                  },
+                  {
+                     "name" : "Content-Type",
+                     "value" : "text/html; charset=UTF-8"
+                  },
+                  {
+                     "name" : "Date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "ETag",
+                     "value" : "\"593e-5ea3903bc4ee6\""
+                  },
+                  {
+                     "name" : "Last-Modified",
+                     "value" : "Tue, 04 Oct 2022 17:44:40 GMT"
+                  },
+                  {
+                     "name" : "Server",
+                     "value" : "Apache/2.4.46 () OpenSSL/1.0.2k-fips PHP/7.3.28"
+                  }
+               ],
+               "headersSize" : 296,
+               "httpVersion" : "HTTP/1.1",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : "OK"
+            },
+            "serverIPAddress" : "54.81.201.178",
+            "startedDateTime" : "2022-12-01T22:47:26.1822Z",
+            "time" : 251.7,
+            "timings" : {
+               "_blocked_queueing" : 1.2,
+               "blocked" : 44.3,
+               "connect" : 124.8,
+               "dns" : 0,
+               "receive" : 1.9,
+               "send" : 0.2,
+               "ssl" : 85.2,
+               "wait" : 80.5
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "69",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "assets.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/master/delivery.js"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "script"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://assets.revcontent.com/master/delivery.js"
+            },
+            "response" : {
+               "bodySize" : 50095,
+               "content" : {
+                  "compression" : 109431,
+                  "mimeType" : "application/x-javascript",
+                  "size" : 159526,
+                  "text" : "/** [Delivery.js]  Version: 0.1.0 - Thursday, November 17th, 2022, 9:14:09 PM */ \n !function(e){function t(t){for(var n,r,o=t[0],a=t[1],s=0,u=[];s<o.length;s++)r=o[s],Object.prototype.hasOwnProperty.call(i,r)&&i[r]&&u.push(i[r][0]),i[r]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(c&&c(t);u.length;)u.shift()()}function n(t){if(r[t])return r[t].exports;var i=r[t]={i:t,l:!1,exports:{}};return e[t].call(i.exports,i,i.exports,n),i.l=!0,i.exports}var r={},i={7:0};n.e=function(e){var t=[],r=i[e];if(0!==r)if(r)t.push(r[2]);else{var o=new Promise((function(t,n){r=i[e]=[t,n]}));t.push(r[2]=o);var a,s=document.createElement(\"script\");s.charset=\"utf-8\",s.timeout=120,n.nc&&s.setAttribute(\"nonce\",n.nc),s.src=function(e){return n.p+\"\"+({0:\"brandWidget~feedWidget\",1:\"defaultWidget~feedWidget\",2:\"aniviewPrebid\",3:\"appnexusPrebid\",4:\"articleCirculation\",5:\"brandProtection\",6:\"brandWidget\",8:\"commonModal\",9:\"defaultWidget\",10:\"doubleLinkWidget\",11:\"feedWidget\",12:\"hoverBlockWidget\",13:\"inArticleWidge... [truncated to save space (158102 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public,max-age=600"
+                  },
+                  {
+                     "name" : "content-encoding",
+                     "value" : "gzip"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "50095"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "application/x-javascript"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"6d1b2100c62614d53dc882993fbdddc7\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Thu, 17 Nov 2022 21:14:59 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "AmazonS3"
+                  },
+                  {
+                     "name" : "x-amz-id-2",
+                     "value" : "lmvcQ5YQFm4BoY5ul6Wakh8RAuNnHVRB6kqjqE1/pemHrkISDfzIsdzajVHcXDy7c667kdJFxwk="
+                  },
+                  {
+                     "name" : "x-amz-request-id",
+                     "value" : "JYXGQ6GRXVYY6JTD"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934846.cds226.da2.hn,1669934846.cds264.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.4681Z",
+            "time" : 73.1,
+            "timings" : {
+               "_blocked_queueing" : 6.9,
+               "blocked" : 7,
+               "connect" : 21.8,
+               "dns" : 15.9,
+               "receive" : 16.2,
+               "send" : 0.3,
+               "ssl" : 13.2,
+               "wait" : 11.8
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "82",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "Accept-Encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "Accept-Language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Host",
+                     "value" : "trends.revcontent.com"
+                  },
+                  {
+                     "name" : "Origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Dest",
+                     "value" : "empty"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Mode",
+                     "value" : "cors"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "User-Agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "method" : "GET",
+               "queryString" : [
+                  {
+                     "name" : "is_blocked",
+                     "value" : "undefined"
+                  },
+                  {
+                     "name" : "w",
+                     "value" : "272291"
+                  },
+                  {
+                     "name" : "width",
+                     "value" : "1366"
+                  },
+                  {
+                     "name" : "rev_allow_cookies",
+                     "value" : "undefined"
+                  },
+                  {
+                     "name" : "site_url",
+                     "value" : "https://code.revcontent.com/performante/?w=272291&disable_demand=true"
+                  },
+                  {
+                     "name" : "icr_url",
+                     "value" : ""
+                  },
+                  {
+                     "name" : "va",
+                     "value" : "0"
+                  },
+                  {
+                     "name" : "user_uuid",
+                     "value" : "undefined"
+                  },
+                  {
+                     "name" : "time",
+                     "value" : "1669934846593"
+                  },
+                  {
+                     "name" : "up",
+                     "value" : "pc"
+                  },
+                  {
+                     "name" : "bn",
+                     "value" : "chrome"
+                  },
+                  {
+                     "name" : "bv",
+                     "value" : "103"
+                  },
+                  {
+                     "name" : "widget_width",
+                     "value" : "1100"
+                  },
+                  {
+                     "name" : "style_id",
+                     "value" : "0"
+                  },
+                  {
+                     "name" : "an",
+                     "value" : "false"
+                  }
+               ],
+               "url" : "https://trends.revcontent.com/api/delivery/?is_blocked=undefined&w=272291&width=1366&rev_allow_cookies=undefined&site_url=https%3A%2F%2Fcode.revcontent.com%2Fperformante%2F%3Fw%3D272291%26disable_demand%3Dtrue&icr_url=&va=0&user_uuid=undefined&time=1669934846593&up=pc&bn=chrome&bv=103&widget_width=1100&style_id=0&an=false"
+            },
+            "response" : {
+               "bodySize" : 12056,
+               "content" : {
+                  "compression" : 18572,
+                  "mimeType" : "text/html; charset=UTF-8",
+                  "size" : 30628,
+                  "text" : "{\"widget_type\":1,\"pub_id\":170276,\"show_descriptions\":false,\"direct_sell\":1,\"imp_uuid\":\"aed6109a-e68a-49e4-9610-9ae68ae9e46f\",\"gc\":\"depreciated\",\"test_bucket\":\"F\",\"isp\":{\"name\":\"Microsoft Azure\",\"connection_type\":\"Corporate\",\"ip_address\":\"13.85.24.83\"},\"connection_type\":\"Corporate\",\"detected_geo\":{\"city\":\"San Antonio\",\"state\":\"Texas\",\"zip\":\"78288\",\"dma\":\"641\"},\"ui_targeting\":{\"device\":\"desktop\",\"sub_device\":\"\",\"browser\":\"chrome\"},\"widget_viewable\":true,\"prebid_settings\":{\"is_enabled\":false,\"ad_units\":null,\"devices\":null},\"demand_settings\":null,\"rioc\":null,\"exco_id\":null,\"show_provider\":true,\"weather_enabled\":false,\"beacons\":[],\"device_class\":\"rc-g-dl\",\"image_ratio\":\"1.2:1\",\"adchoices\":null,\"css\":\"\",\"header\":\"Around the Web\",\"grid\":{\"rows\":\"2\",\"columns\":\"3\"},\"generic_token\":\"V4F4GmQMVigU13NNO7vCeJlYPoy%2FLL1OqgHXa4TFMtJwKoMZiglIhI8OT3Iwp05YER0r%2FVHFV15HJwdY8adG3aQxT2j2lYaIOCwbqdNRbYo%3D\",\"ci_enabled\":0,\"grid_settings\":null,\"scroll_settings\":null,\"impression\":\"\",\"original_load\":\"eyJzcG9uc29yZWQiOls5MzE2NTE0LDkz... [truncated to save space (29604 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "access-control-allow-credentials",
+                     "value" : "true"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "content-encoding",
+                     "value" : "gzip"
+                  },
+                  {
+                     "name" : "Content-Length",
+                     "value" : "12056"
+                  },
+                  {
+                     "name" : "Content-Type",
+                     "value" : "text/html; charset=UTF-8"
+                  },
+                  {
+                     "name" : "Date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "Server",
+                     "value" : "openresty"
+                  },
+                  {
+                     "name" : "Strict-Transport-Security",
+                     "value" : "max-age=931536000; includeSubDomains"
+                  },
+                  {
+                     "name" : "vary",
+                     "value" : "Accept-Encoding"
+                  },
+                  {
+                     "name" : "X-RC-Region",
+                     "value" : "us-east-1b"
+                  }
+               ],
+               "headersSize" : 397,
+               "httpVersion" : "HTTP/1.1",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : "OK"
+            },
+            "serverIPAddress" : "34.225.144.85",
+            "startedDateTime" : "2022-12-01T22:47:26.5933Z",
+            "time" : 326.2,
+            "timings" : {
+               "_blocked_queueing" : 19.7,
+               "blocked" : 20.1,
+               "connect" : 114.4,
+               "dns" : 33,
+               "receive" : 1.9,
+               "send" : 0.2,
+               "ssl" : 77.4,
+               "wait" : 156.6
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "61",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "Accept-Encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "Accept-Language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Host",
+                     "value" : "code.revcontent.com"
+                  },
+                  {
+                     "name" : "Referer",
+                     "value" : "https://code.revcontent.com/performante/?w=272291&disable_demand=true"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Site",
+                     "value" : "same-origin"
+                  },
+                  {
+                     "name" : "User-Agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://code.revcontent.com/favicon.ico"
+            },
+            "response" : {
+               "bodySize" : 196,
+               "content" : {
+                  "mimeType" : "text/html; charset=iso-8859-1",
+                  "size" : 196,
+                  "text" : "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Content-Length",
+                     "value" : "196"
+                  },
+                  {
+                     "name" : "Content-Type",
+                     "value" : "text/html; charset=iso-8859-1"
+                  },
+                  {
+                     "name" : "Date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "Server",
+                     "value" : "Apache/2.4.46 () OpenSSL/1.0.2k-fips PHP/7.3.28"
+                  }
+               ],
+               "headersSize" : 210,
+               "httpVersion" : "HTTP/1.1",
+               "redirectURL" : "",
+               "status" : 404,
+               "statusText" : "Not Found"
+            },
+            "serverIPAddress" : "54.81.201.178",
+            "startedDateTime" : "2022-12-01T22:47:26.6012Z",
+            "time" : 54.5,
+            "timings" : {
+               "_blocked_queueing" : 12.1,
+               "blocked" : 12.4,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 0.8,
+               "send" : 0.1,
+               "ssl" : -1,
+               "wait" : 41.1
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "69",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "assets.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/master/defaultWidget~feedWidget.delivery.js"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "script"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://assets.revcontent.com/master/defaultWidget~feedWidget.delivery.js"
+            },
+            "response" : {
+               "bodySize" : 7037,
+               "content" : {
+                  "compression" : 16226,
+                  "mimeType" : "application/x-javascript",
+                  "size" : 23263,
+                  "text" : "/** [Delivery.js]  Version: 0.1.0 - Thursday, November 17th, 2022, 9:14:09 PM */ \n (window.wpJsonRciWidget=window.wpJsonRciWidget||[]).push([[1],{\"+HWl\":function(n,e,t){\"use strict\";var i=t(\"QRet\");e.a=function(n,e){var t=Object(i.k)(n),r=t[0],o=t[1];return Object(i.d)((function(){var t=setTimeout((function(){o(n)}),e);return function(){return clearTimeout(t)}}),[n,e]),r}},\"1sW0\":function(n,e,t){\"use strict\";(function(n){t.d(e,\"b\",(function(){return a})),t.d(e,\"d\",(function(){return u})),t.d(e,\"a\",(function(){return d})),t.d(e,\"c\",(function(){return l}));var i=t(\"pKqM\"),r=t(\"QRet\"),o=t(\"dUsk\"),c=t(\"HGy1\"),a=function(e){var t=e.provider,c=Object(r.b)(o.a);return c.show_provider?n(i.l,{providerColor:c.theme.mutedForeground,className:c.isRCBranded?\"rc-provider\":c.brandPrefix+\"-content-provider\"},t):null},u=function(e){var t=e.headline,r=e.provider,o=e.description,a=e.columns,u=e.showDescriptions,d=e.brandPrefix,l=e.isBranded,s=e.theme;return n(i.c,{device:e.device,columns:a,className:l?\"rc-content\":d+\"-content-e... [truncated to save space (22239 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public,max-age=600"
+                  },
+                  {
+                     "name" : "content-encoding",
+                     "value" : "gzip"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "7037"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "application/x-javascript"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"be95980ea5aef812a7cacf4640af2973\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Thu, 17 Nov 2022 21:15:03 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "AmazonS3"
+                  },
+                  {
+                     "name" : "x-amz-id-2",
+                     "value" : "qDNq0iLOvXTZkcnYOaQADeawl/i1wYm2qcR4ro0DHWylTVJROqLSal4bsq1cDpk8Z4wPz4CFasc="
+                  },
+                  {
+                     "name" : "x-amz-request-id",
+                     "value" : "JYXREP5JZERWJ1VS"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934846.cds226.da2.hn,1669934846.cds223.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.9338Z",
+            "time" : 13.6,
+            "timings" : {
+               "_blocked_queueing" : 1,
+               "blocked" : 1.2,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 1.2,
+               "send" : 0.1,
+               "ssl" : -1,
+               "wait" : 11.1
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "69",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "assets.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/master/defaultWidget.delivery.js"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "script"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://assets.revcontent.com/master/defaultWidget.delivery.js"
+            },
+            "response" : {
+               "bodySize" : 6210,
+               "content" : {
+                  "compression" : 11077,
+                  "mimeType" : "application/x-javascript",
+                  "size" : 17287,
+                  "text" : "/** [Delivery.js]  Version: 0.1.0 - Thursday, November 17th, 2022, 9:14:09 PM */ \n (window.wpJsonRciWidget=window.wpJsonRciWidget||[]).push([[9],{\"3Es2\":function(e,n,i){\"use strict\";(function(e){var t,a,r,d=i(\"QRet\"),c=i(\"UutA\"),o=i(\"NUIA\"),s=i(\"dUsk\"),l=i(\"+HWl\"),u=i(\"kcvL\"),p=i(\"HGy1\"),m=c.b.div(t||(a=[\"\\n  position: relative !important;\\n  overflow: visible !important;\\n  width: \",\"px !important;\\n  \",\"\\n\"],r||(r=a.slice(0)),a.raw=r,t=a),(function(e){return f(e.parentWidth,e.columnWidth,e.columnSpan,e.deviceClass,e.displayStyle,e.isMobile,e.isFeed)}),(function(e){return b(e.isMobile,e.isFeed)})),b=function(e,n){var i=n?\"10px\":\"5px 5px 12px 5px\";return e&&(i=\"0\"),\"margin: \"+i+\" !important;\"},f=function(e,n,i,t,a,r,d){if(e&&0!==e)return d?Object(p.d)(e,n,t,!0):r?e:(e/n-15)*i+15};n.a=function(n){var i=n.id,t=void 0===i?\"aniView\":i,a=n.columns,r=n.columnSpan,c=n.parent,b=n.isFeed,f=void 0!==b&&b,h=Object(d.j)(null),v=Object(d.b)(s.a),x=v.device_class,g=v.brandPrefix,w=v.isMobile,y=v.excoStyle,_=Object(l.a)(Obj... [truncated to save space (16263 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public,max-age=600"
+                  },
+                  {
+                     "name" : "content-encoding",
+                     "value" : "gzip"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "6210"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "application/x-javascript"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"1eb3a2898e2c0a2a543751c7a341fb91\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Thu, 17 Nov 2022 21:15:00 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "AmazonS3"
+                  },
+                  {
+                     "name" : "x-amz-id-2",
+                     "value" : "ADUj+LSuenLiOAheGNXPFdd10Z73M95U03gq64yyEYQV2oSx9zemK3JQwbCWj5+///FX3M2YI4E="
+                  },
+                  {
+                     "name" : "x-amz-request-id",
+                     "value" : "JYXHH0RDFVNZ5TFS"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934846.cds226.da2.hn,1669934846.cds273.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.9345Z",
+            "time" : 13.9,
+            "timings" : {
+               "_blocked_queueing" : 1.4,
+               "blocked" : 1.5,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 0.9,
+               "send" : 0.1,
+               "ssl" : -1,
+               "wait" : 11.4
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "69",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "assets.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/master/commonModal.delivery.js"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "script"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://assets.revcontent.com/master/commonModal.delivery.js"
+            },
+            "response" : {
+               "bodySize" : 1664,
+               "content" : {
+                  "compression" : 1881,
+                  "mimeType" : "application/x-javascript",
+                  "size" : 3545,
+                  "text" : "/** [Delivery.js]  Version: 0.1.0 - Thursday, November 17th, 2022, 9:14:09 PM */ \n (window.wpJsonRciWidget=window.wpJsonRciWidget||[]).push([[8],{\"0yHY\":function(n,t,e){\"use strict\";var o=e(\"l8WD\"),i=function(n){return n?n<480?\"xs\":n<768?\"s\":n<1e3?\"m\":\"l\":\"l\"};t.a=function(n){var t=Object(o.useState)((function(){return i(n)})),e=t[0],r=t[1];return Object(o.useEffect)((function(){r(i(n))}),[]),e}},NUIA:function(n,t,e){\"use strict\";var o=e(\"QRet\"),i=function(n){return n.clientWidth};t.a=function(n){var t=Object(o.k)(n?n.clientWidth:0),e=t[0],r=t[1];return Object(o.d)((function(){n&&r(i(n))}),[n]),Object(o.d)((function(){if(n){var t=function(){return r(i(n))};return window.addEventListener(\"resize\",t),function(){return window.removeEventListener(\"resize\",t)}}}),[n,e]),e}},chPE:function(n,t,e){\"use strict\";e.r(t),function(n){function o(n,t){return t||(t=n.slice(0)),n.raw=t,n}var i,r,a,c,l,s,u=e(\"UutA\"),d=e(\"dUsk\"),p=e(\"rUco\"),b=e(\"NUIA\"),f=e(\"0yHY\"),m=e(\"2Usk\"),g=e(\"QRet\"),h=u.b.div(i||(i=o([\"\\n  display: \",\" !im... [truncated to save space (2521 more bytes)]"
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public,max-age=600"
+                  },
+                  {
+                     "name" : "content-encoding",
+                     "value" : "gzip"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "1664"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "application/x-javascript"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:26 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"9baa83b11705fe5273bcb9fa4c6a3586\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Thu, 17 Nov 2022 21:15:00 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "AmazonS3"
+                  },
+                  {
+                     "name" : "x-amz-id-2",
+                     "value" : "XMvnCMCPLKFoWA8vTDnN65QZZg0CfMBm09qIm0DFs8P6Qu23tZU8JY83J4nLLtUkRcnWsPVklSo="
+                  },
+                  {
+                     "name" : "x-amz-request-id",
+                     "value" : "JYXQ1V2ST9WC40X3"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934846.cds226.da2.hn,1669934846.cds102.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.9382Z",
+            "time" : 13.1,
+            "timings" : {
+               "_blocked_queueing" : 0.9,
+               "blocked" : 1,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 1,
+               "send" : 0.1,
+               "ssl" : -1,
+               "wait" : 11
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "102",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "img.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/?url=https://cdn.revcontent.com/assets/img/full_color.png&static=true"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [
+                  {
+                     "name" : "url",
+                     "value" : "https://cdn.revcontent.com/assets/img/full_color.png"
+                  },
+                  {
+                     "name" : "static",
+                     "value" : "true"
+                  }
+               ],
+               "url" : "https://img.revcontent.com/?url=https://cdn.revcontent.com/assets/img/full_color.png&static=true"
+            },
+            "response" : {
+               "bodySize" : 1351,
+               "content" : {
+                  "mimeType" : "image/png",
+                  "size" : 1351
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "max-age=31536000"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "1351"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/png"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"1654183362\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Thu, 02 Jun 2022 15:22:42 GMT"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934846.cds136.da2.hn,1669934847.cds237.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.9404Z",
+            "time" : 68.2,
+            "timings" : {
+               "_blocked_queueing" : 1.6,
+               "blocked" : 1.7,
+               "connect" : 35.1,
+               "dns" : 16.4,
+               "receive" : 0.8,
+               "send" : 0.7,
+               "ssl" : 28.3,
+               "wait" : 13.4
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "111",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "cdn.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/assets/img/rc-logo.png"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://cdn.revcontent.com/assets/img/rc-logo.png"
+            },
+            "response" : {
+               "bodySize" : 2091,
+               "content" : {
+                  "mimeType" : "image/png",
+                  "size" : 2091
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "max-age=79505"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "2091"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/png"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"1669595881\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Mon, 28 Nov 2022 00:38:01 GMT"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds242.da2.hn,1669934847.cds251.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:26.9869Z",
+            "time" : 60.3,
+            "timings" : {
+               "_blocked_queueing" : 6.9,
+               "blocked" : 7.2,
+               "connect" : 24,
+               "dns" : 14.9,
+               "receive" : 0.9,
+               "send" : 0.3,
+               "ssl" : 14.6,
+               "wait" : 13
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/61e73118bef394f69d7a413d8004ba0d.png"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/61e73118bef394f69d7a413d8004ba0d.png"
+            },
+            "response" : {
+               "bodySize" : 15500,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 15500
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "15500"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"ba2498af221bbb95ce79f8a90bcbaa0b\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Wed, 02 Nov 2022 20:53:27 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=56;cpu=1;start=2022-11-02T20:57:44.231Z;desc=miss,rtt;dur=0,cloudinary;dur=20;start=2022-11-02T20:57:44.248Z"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds242.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0642Z",
+            "time" : 92.6,
+            "timings" : {
+               "_blocked_queueing" : 3.7,
+               "blocked" : 19.2,
+               "connect" : 40.7,
+               "dns" : 0,
+               "receive" : 11.6,
+               "send" : 2.2,
+               "ssl" : 32.7,
+               "wait" : 18.8
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/2642efbfcf211445430a6291f7761e4d.jpg"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/2642efbfcf211445430a6291f7761e4d.jpg"
+            },
+            "response" : {
+               "bodySize" : 18363,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 18363
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "18363"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"f9331b2a43870e1ae0c415f2dcac83b9\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Fri, 04 Nov 2022 21:10:55 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=3;cpu=0;start=2022-11-04T21:15:48.737Z;desc=hit,rtt;dur=0"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds259.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0752Z",
+            "time" : 81.9,
+            "timings" : {
+               "_blocked_queueing" : 0.8,
+               "blocked" : 50.9,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 7.4,
+               "send" : 0.3,
+               "ssl" : -1,
+               "wait" : 23.4
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/0ecb4fb37de26a0668e2ff1ed2bb7285.jpeg"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/0ecb4fb37de26a0668e2ff1ed2bb7285.jpeg"
+            },
+            "response" : {
+               "bodySize" : 12747,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 12747
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "12747"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"bdc96cb78e1a0c290eefb84f2c85423e\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Wed, 30 Nov 2022 17:34:26 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=376;cpu=0;start=2022-11-30T18:11:55.138Z;desc=miss,rtt;dur=0,cloudinary;dur=342;start=2022-11-30T18:11:55.155Z,cld-id;desc=64a61449f821091c53d7f9a45d4e207a"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds111.da2.c"
+                  },
+                  {
+                     "name" : "x-request-id",
+                     "value" : "64a61449f821091c53d7f9a45d4e207a"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0789Z",
+            "time" : 79.2,
+            "timings" : {
+               "_blocked_queueing" : 4.1,
+               "blocked" : 47.2,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 0.8,
+               "send" : 0.3,
+               "ssl" : -1,
+               "wait" : 31
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/ec33bf9e47e759a04ceb3cc022646a6f.jpeg"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/ec33bf9e47e759a04ceb3cc022646a6f.jpeg"
+            },
+            "response" : {
+               "bodySize" : 10713,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 10713
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "10713"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"93d8cb13064ea44c9715b94986102ed5\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Wed, 23 Nov 2022 01:55:52 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=98;cpu=1;start=2022-11-23T02:37:17.705Z;desc=miss,rtt;dur=0,cloudinary;dur=46;start=2022-11-23T02:37:17.723Z"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds237.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0879Z",
+            "time" : 71.1,
+            "timings" : {
+               "_blocked_queueing" : 0.7,
+               "blocked" : 38.2,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 0.7,
+               "send" : 0.2,
+               "ssl" : -1,
+               "wait" : 32
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/78e11dba84d6d7fae3811661f691ec2e.jpeg"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/78e11dba84d6d7fae3811661f691ec2e.jpeg"
+            },
+            "response" : {
+               "bodySize" : 8341,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 8341
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "8341"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"3b53c4ca5063f75c1c4324688a64065f\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Wed, 30 Nov 2022 03:44:17 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=158;cpu=1;start=2022-11-30T03:45:21.649Z;desc=miss,rtt;dur=0,cloudinary;dur=25;start=2022-11-30T03:45:21.764Z"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds108.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0934Z",
+            "time" : 68.4,
+            "timings" : {
+               "_blocked_queueing" : 2.5,
+               "blocked" : 32.7,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 2.6,
+               "send" : 0.2,
+               "ssl" : -1,
+               "wait" : 32.9
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "132",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 0,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : ":authority",
+                     "value" : "images.revcontent.com"
+                  },
+                  {
+                     "name" : ":method",
+                     "value" : "GET"
+                  },
+                  {
+                     "name" : ":path",
+                     "value" : "/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/5637757343e65384dca9066fa9cdf206.jpeg"
+                  },
+                  {
+                     "name" : ":scheme",
+                     "value" : "https"
+                  },
+                  {
+                     "name" : "accept",
+                     "value" : "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+                  },
+                  {
+                     "name" : "accept-encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "accept-language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "sec-fetch-dest",
+                     "value" : "image"
+                  },
+                  {
+                     "name" : "sec-fetch-mode",
+                     "value" : "no-cors"
+                  },
+                  {
+                     "name" : "sec-fetch-site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "user-agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "method" : "GET",
+               "queryString" : [],
+               "url" : "https://images.revcontent.com/revcontent/image/fetch/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto/pg_1/https://media.revcontent.com/content/images/5637757343e65384dca9066fa9cdf206.jpeg"
+            },
+            "response" : {
+               "bodySize" : 10983,
+               "content" : {
+                  "mimeType" : "image/jpeg",
+                  "size" : 10983
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "accept-ranges",
+                     "value" : "bytes"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "access-control-expose-headers",
+                     "value" : "Content-Length,ETag,Server-Timing,X-Content-Type-Options"
+                  },
+                  {
+                     "name" : "cache-control",
+                     "value" : "public, no-transform, immutable, max-age=604800"
+                  },
+                  {
+                     "name" : "content-length",
+                     "value" : "10983"
+                  },
+                  {
+                     "name" : "content-type",
+                     "value" : "image/jpeg"
+                  },
+                  {
+                     "name" : "date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "etag",
+                     "value" : "\"4a1c63a4e8bcbab4b4cc0d6b8966f839\""
+                  },
+                  {
+                     "name" : "last-modified",
+                     "value" : "Wed, 30 Nov 2022 06:04:11 GMT"
+                  },
+                  {
+                     "name" : "server",
+                     "value" : "Cloudinary"
+                  },
+                  {
+                     "name" : "server-timing",
+                     "value" : "fastly;dur=55;cpu=0;start=2022-11-30T06:10:52.714Z;desc=miss,rtt;dur=0,cloudinary;dur=14;start=2022-11-30T06:10:52.735Z"
+                  },
+                  {
+                     "name" : "strict-transport-security",
+                     "value" : "max-age=604800"
+                  },
+                  {
+                     "name" : "timing-allow-origin",
+                     "value" : "*"
+                  },
+                  {
+                     "name" : "x-content-type-options",
+                     "value" : "nosniff"
+                  },
+                  {
+                     "name" : "x-hw",
+                     "value" : "1669934847.cds051.da2.hn,1669934847.cds211.da2.c"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/2.0",
+               "redirectURL" : "",
+               "status" : 200,
+               "statusText" : ""
+            },
+            "serverIPAddress" : "151.139.128.10",
+            "startedDateTime" : "2022-12-01T22:47:27.0972Z",
+            "time" : 74.8,
+            "timings" : {
+               "_blocked_queueing" : 0.9,
+               "blocked" : 28.9,
+               "connect" : -1,
+               "dns" : -1,
+               "receive" : 10,
+               "send" : 0.2,
+               "ssl" : -1,
+               "wait" : 35.7
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "163",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 2784,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "Accept-Encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "Accept-Language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Content-Length",
+                     "value" : "2784"
+                  },
+                  {
+                     "name" : "Content-Type",
+                     "value" : "application/x-www-form-urlencoded; charset=UTF-8"
+                  },
+                  {
+                     "name" : "Host",
+                     "value" : "trends.revcontent.com"
+                  },
+                  {
+                     "name" : "Origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Dest",
+                     "value" : "empty"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Mode",
+                     "value" : "cors"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "User-Agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "method" : "POST",
+               "postData" : {
+                  "mimeType" : "application/x-www-form-urlencoded; charset=UTF-8",
+                  "params" : [
+                     {
+                        "name" : "v",
+                        "value" : "ktpAk9fagy7uI4Qqp5S6LCG0vp9yMRno8WN%2FopnZLO%2FbE7u9gqroEeP9uLiRT1mnL1prmzlGe6i0QSqTCdLoylVbX2T%2BqOrdQzNlj6K5cmZjnCACAZNc%2FEQQAplqiu9jNAKc2tvrtP8E0cNRLJnTFKjp0YrG%2BgAQeYdFoQG8iLKRMNdyhOXCq2%2BCreGHOex4r7VFaSG7vSWTyeWTbhH%2BaaB682qml8TpiFlZFnvY%2BMZ7BjJRRpQ0VtJUhR3nckZx2EGjGQasE1NJpnnDDlOZsIaN1f1xeHniDKJ4FAn8cTldyfQseo8y4EsGohkJ9sPNcsf%2FTCxgha13bTibcIBPDiO%2BoLdfqU3XDDfbxrSX0%2BEe5ZD%2FaYZQz2J0Q8qN8MOT3dOqHaS7ho290%2FeotmaKVZ6U%2FWaCgMZu8p2My8IsiMslZcPnfk479LZXBigeoqd5UsSvjjYIRMAOILw%2BeJB3PX5vb9ST4btnbg7JrEhj9aLwAdEAr%2BBn07LricYHHS2dcPH1x433Pj%2Bva%2B74bImCD%2BgrYs5G4SCDz0swgtiOT9g3DDP1wFkzgu8%2BrRPcz3H%2FUIgpGI73j14hrSIM42zpW5bXMcNNLWwI9cMY0VqYBpUuFcW1G5%2BUnO7%2FuVWMZxZ7R7%2FX1uNuIJtI8ehv48Qr3TNROEXjZlpUxWcN6i9RaeAAMGhAZx1ygxaHCoYdQN5WN09jS1wlklqLuZkKS9HOJggcHsKUDoUhMOAG%2BBoLqT%2FJn%2Bnq8AiUKN5fDdfVtN6DIZiRZ4J9EyssoI%2B3Sdg8Y0B%2Bn3V7vjn9soWOjlsNKnFoLp6m2gseWskq3LYRQlipoAMfXin2x6Nyaqzd9NlARY%2BwvgLqVdNUpQ39cFc6brUmOU%2FopHhW%2FlOI7DwisaXxOhPO0znA8Z6niTEewhiHaAdlZAfY%2BBQgz%2F%2FZWBte2VjqgyT0VoFOKpEWtl%2BFIpru4zV24eQJLa3uaZf%2FdZ6gysQNudl3%2BoAT9%2BX5mD3k9o2RQ42tWdGwzdT%2B1eGFAm0dUQYpO4slWXrEma7hGh5XPUc2xZb0M%2BsYBso4vcfnaW2fLmLQIwTj4qg%2FpcafV0i6rik5sMfaMrIlVaBSuoan7Ut6RrM0hXqceJkS1K2XzM9yUZqqYfQN976QmB6zfYEw6WQZKtltbpAITbORBKCMCTUrqkcdGfcL1kkGvuQoxpa3M7YK1Nj1R%2FZms5UckNuNhHOt4F9jEGrFtVFl%2FfeiuAgyQ6uEIVMBnseXmg2bvKcz1aAJEPEao9LzsOxyQvCJ3ZBnkVVbHBUA8NfLK99cSScK8q4KNhvkVWKhB3PYkOYOrFIA62YIdxdOjxezLcNWExHBVAhaZPl5Xm7gBAd7NEcCrv9rrHnDTuuHaA0TeQF4%2BPb8icWKtz9pXj%2B1%2BSIRaJ6UKtZ82vhe%2B07EF9yxTxn%2BFcA0%2BdMLxzWWBhvfbJxdCBsE17sY%2FzmeQacyiTVZw2RmoJyn5kKSE7JYhfZvsXSXg0jVp5dyQEuwrFXeKUiGqFNlFD87JhAWBnCmGA3ELKg5kY2XYh0NAiVlArZU%2BHq2G1wH01NN87ywUsBnXr8XoNVNGClWyQIBJT4xjDmFbrtq%2FR22M2NDEmmX7DRn47i2niu3klVuCIHJ82YJV482x2uFASb%2F7rfuSuBjVablGNyNsqpKDLASaMEd8RzceUGHxp%2FLbI2dMeOY1q7YcgVEe896oVrAaNtElu0hXZ%2B3jzsFwuUAoZKHpGbxpS23xiCyifx8Ef6LhKo0ygLlaNEJK4DXAdmpWGmaKcOklQj0z4sE3edPxxAyfYd3OEZAXNof1tKU8dgiiDTS2jOugkBzIEwUOHbi7BDyl4ybq5jwxgXY5KOjxMdvW9jlnviHwfC0Z3CoyYMsx6QUOFclti5HLtzfMEkwPL6jhFs%2FG6JTOfmWaE0y2S0dR3DQaZYzcl6YFQMpJZq6Uw8HagcZJQgaOQfi94t0UNFEgP8hKfUt4DXrhiZFG1hPMpBhTMfdQe6fAit66flgX6C8u3qJPYBKAOUGFW696cgcNDJY27idPmNKOU%2BbR7YckEpZiXyyN48Zau2e%2B7BuHZVCLish%2FMai%2Bptt22NdVXgiT5Ocv3SzS8t3fQIBqKkrchT3DKr5pPnOGKii8kDU5PXtoD%2BBGx65OJEC5ACFMadO3ySB1Vf7CVF67bMjhrQr%2BMR12chE7zLLQbtcMlg2fGee7EDCkOeXDVyP82kxwWe5dYdK05dYPBhF3wKZVfzwHvp%2FWllvMAq5GOM3ScxE8dKr6GSWZ3t1AS%2FopfD6G7iwEObX7qCJ1QRBIGl2bk%2Bd%2FfjS5UhZGg%3D%3D"
+                     },
+                     {
+                        "name" : "r",
+                        "value" : ""
+                     },
+                     {
+                        "name" : "l",
+                        "value" : "https%3A%2F%2Fcode.revcontent.com%2Fperformante%2F%3Fw%3D272291%26disable_demand%3Dtrue"
+                     },
+                     {
+                        "name" : "f",
+                        "value" : "false"
+                     },
+                     {
+                        "name" : "variant",
+                        "value" : "undefined"
+                     },
+                     {
+                        "name" : "adblocked",
+                        "value" : "undefined"
+                     },
+                     {
+                        "name" : "client_version",
+                        "value" : "0.1.0"
+                     }
+                  ],
+                  "text" : "v=ktpAk9fagy7uI4Qqp5S6LCG0vp9yMRno8WN%252FopnZLO%252FbE7u9gqroEeP9uLiRT1mnL1prmzlGe6i0QSqTCdLoylVbX2T%252BqOrdQzNlj6K5cmZjnCACAZNc%252FEQQAplqiu9jNAKc2tvrtP8E0cNRLJnTFKjp0YrG%252BgAQeYdFoQG8iLKRMNdyhOXCq2%252BCreGHOex4r7VFaSG7vSWTyeWTbhH%252BaaB682qml8TpiFlZFnvY%252BMZ7BjJRRpQ0VtJUhR3nckZx2EGjGQasE1NJpnnDDlOZsIaN1f1xeHniDKJ4FAn8cTldyfQseo8y4EsGohkJ9sPNcsf%252FTCxgha13bTibcIBPDiO%252BoLdfqU3XDDfbxrSX0%252BEe5ZD%252FaYZQz2J0Q8qN8MOT3dOqHaS7ho290%252FeotmaKVZ6U%252FWaCgMZu8p2My8IsiMslZcPnfk479LZXBigeoqd5UsSvjjYIRMAOILw%252BeJB3PX5vb9ST4btnbg7JrEhj9aLwAdEAr%252BBn07LricYHHS2dcPH1x433Pj%252Bva%252B74bImCD%252BgrYs5G4SCDz0swgtiOT9g3DDP1wFkzgu8%252BrRPcz3H%252FUIgpGI73j14hrSIM42zpW5bXMcNNLWwI9cMY0VqYBpUuFcW1G5%252BUnO7%252FuVWMZxZ7R7%252FX1uNuIJtI8ehv48Qr3TNROEXjZlpUxWcN6i9RaeAAMGhAZx1ygxaHCoYdQN5WN09jS1wlklqLuZkKS9HOJggcHsKUDoUhMOAG%252BBoLqT%252FJn%252Bnq8AiUKN5fDdfVtN6DIZiRZ4J9EyssoI%252B3Sdg8Y0B%252Bn3V7vjn9soWOjlsNKnFoLp6m2gseWskq3LYRQlipoAMfXin2x6Nyaqzd9NlARY%252BwvgLqVdNUpQ39cFc6brUmOU%252FopHhW%252FlOI7Dwisa... [truncated to save space (1760 more bytes)]"
+               },
+               "queryString" : [],
+               "url" : "https://trends.revcontent.com/event/impression"
+            },
+            "response" : {
+               "_error" : "canceled",
+               "_errorText" : "net::ERR_ABORTED",
+               "bodySize" : -1,
+               "content" : {
+                  "mimeType" : "",
+                  "size" : 0
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "access-control-allow-credentials",
+                     "value" : "true"
+                  },
+                  {
+                     "name" : "access-control-allow-headers",
+                     "value" : "Content-Type"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "Server",
+                     "value" : "openresty"
+                  },
+                  {
+                     "name" : "Strict-Transport-Security",
+                     "value" : "max-age=931536000; includeSubDomains"
+                  },
+                  {
+                     "name" : "X-RC-Region",
+                     "value" : "us-east-1b"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "redirectURL" : "",
+               "status" : 204,
+               "statusText" : "No Content"
+            },
+            "serverIPAddress" : "34.225.144.85",
+            "startedDateTime" : "2022-12-01T22:47:27.8013Z",
+            "time" : 157.2,
+            "timings" : {
+               "_blocked_queueing" : 1.7,
+               "blocked" : 2.2,
+               "connect" : 107.3,
+               "dns" : 0,
+               "receive" : 2.7,
+               "send" : 0.3,
+               "ssl" : 71.6,
+               "wait" : 44.7
+            }
+         },
+         {
+            "cache" : {},
+            "connection" : "158",
+            "pageref" : "page_0",
+            "request" : {
+               "bodySize" : 2676,
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "Accept",
+                     "value" : "*/*"
+                  },
+                  {
+                     "name" : "Accept-Encoding",
+                     "value" : "gzip, deflate, br"
+                  },
+                  {
+                     "name" : "Accept-Language",
+                     "value" : "en-US,en;q=0.9"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Content-Length",
+                     "value" : "2676"
+                  },
+                  {
+                     "name" : "Content-Type",
+                     "value" : "application/x-www-form-urlencoded; charset=UTF-8"
+                  },
+                  {
+                     "name" : "Host",
+                     "value" : "trends.revcontent.com"
+                  },
+                  {
+                     "name" : "Origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Referer",
+                     "value" : "https://code.revcontent.com/"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Dest",
+                     "value" : "empty"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Mode",
+                     "value" : "cors"
+                  },
+                  {
+                     "name" : "Sec-Fetch-Site",
+                     "value" : "same-site"
+                  },
+                  {
+                     "name" : "User-Agent",
+                     "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 GTmetrix"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "method" : "POST",
+               "postData" : {
+                  "mimeType" : "application/x-www-form-urlencoded; charset=UTF-8",
+                  "params" : [
+                     {
+                        "name" : "view",
+                        "value" : "ktpAk9fagy7uI4Qqp5S6LCG0vp9yMRno8WN%2FopnZLO%2FbE7u9gqroEeP9uLiRT1mnL1prmzlGe6i0QSqTCdLoylVbX2T%2BqOrdQzNlj6K5cmZjnCACAZNc%2FEQQAplqiu9jNAKc2tvrtP8E0cNRLJnTFKjp0YrG%2BgAQeYdFoQG8iLKRMNdyhOXCq2%2BCreGHOex4r7VFaSG7vSWTyeWTbhH%2BaaB682qml8TpiFlZFnvY%2BMZ7BjJRRpQ0VtJUhR3nckZx2EGjGQasE1NJpnnDDlOZsIaN1f1xeHniDKJ4FAn8cTldyfQseo8y4EsGohkJ9sPNcsf%2FTCxgha13bTibcIBPDiO%2BoLdfqU3XDDfbxrSX0%2BEe5ZD%2FaYZQz2J0Q8qN8MOT3dOqHaS7ho290%2FeotmaKVZ6U%2FWaCgMZu8p2My8IsiMslZcPnfk479LZXBigeoqd5UsSvjjYIRMAOILw%2BeJB3PX5vb9ST4btnbg7JrEhj9aLwAdEAr%2BBn07LricYHHS2dcPH1x433Pj%2Bva%2B74bImCD%2BgrYs5G4SCDz0swgtiOT9g3DDP1wFkzgu8%2BrRPcz3H%2FUIgpGI73j14hrSIM42zpW5bXMcNNLWwI9cMY0VqYBpUuFcW1G5%2BUnO7%2FuVWMZxZ7R7%2FX1uNuIJtI8ehv48Qr3TNROEXjZlpUxWcN6i9RaeAAMGhAZx1ygxaHCoYdQN5WN09jS1wlklqLuZkKS9HOJggcHsKUDoUhMOAG%2BBoLqT%2FJn%2Bnq8AiUKN5fDdfVtN6DIZiRZ4J9EyssoI%2B3Sdg8Y0B%2Bn3V7vjn9soWOjlsNKnFoLp6m2gseWskq3LYRQlipoAMfXin2x6Nyaqzd9NlARY%2BwvgLqVdNUpQ39cFc6brUmOU%2FopHhW%2FlOI7DwisaXxOhPO0znA8Z6niTEewhiHaAdlZAfY%2BBQgz%2F%2FZWBte2VjqgyT0VoFOKpEWtl%2BFIpru4zV24eQJLa3uaZf%2FdZ6gysQNudl3%2BoAT9%2BX5mD3k9o2RQ42tWdGwzdT%2B1eGFAm0dUQYpO4slWXrEma7hGh5XPUc2xZb0M%2BsYBso4vcfnaW2fLmLQIwTj4qg%2FpcafV0i6rik5sMfaMrIlVaBSuoan7Ut6RrM0hXqceJkS1K2XzM9yUZqqYfQN976QmB6zfYEw6WQZKtltbpAITbORBKCMCTUrqkcdGfcL1kkGvuQoxpa3M7YK1Nj1R%2FZms5UckNuNhHOt4F9jEGrFtVFl%2FfeiuAgyQ6uEIVMBnseXmg2bvKcz1aAJEPEao9LzsOxyQvCJ3ZBnkVVbHBUA8NfLK99cSScK8q4KNhvkVWKhB3PYkOYOrFIA62YIdxdOjxezLcNWExHBVAhaZPl5Xm7gBAd7NEcCrv9rrHnDTuuHaA0TeQF4%2BPb8icWKtz9pXj%2B1%2BSIRaJ6UKtZ82vhe%2B07EF9yxTxn%2BFcA0%2BdMLxzWWBhvfbJxdCBsE17sY%2FzmeQacyiTVZw2RmoJyn5kKSE7JYhfZvsXSXg0jVp5dyQEuwrFXeKUiGqFNlFD87JhAWBnCmGA3ELKg5kY2XYh0NAiVlArZU%2BHq2G1wH01NN87ywUsBnXr8XoNVNGClWyQIBJT4xjDmFbrtq%2FR22M2NDEmmX7DRn47i2niu3klVuCIHJ82YJV482x2uFASb%2F7rfuSuBjVablGNyNsqpKDLASaMEd8RzceUGHxp%2FLbI2dMeOY1q7YcgVEe896oVrAaNtElu0hXZ%2B3jzsFwuUAoZKHpGbxpS23xiCyifx8Ef6LhKo0ygLlaNEJK4DXAdmpWGmaKcOklQj0z4sE3edPxxAyfYd3OEZAXNof1tKU8dgiiDTS2jOugkBzIEwUOHbi7BDyl4ybq5jwxgXY5KOjxMdvW9jlnviHwfC0Z3CoyYMsx6QUOFclti5HLtzfMEkwPL6jhFs%2FG6JTOfmWaE0y2S0dR3DQaZYzcl6YFQMpJZq6Uw8HagcZJQgaOQfi94t0UNFEgP8hKfUt4DXrhiZFG1hPMpBhTMfdQe6fAit66flgX6C8u3qJPYBKAOUGFW696cgcNDJY27idPmNKOU%2BbR7YckEpZiXyyN48Zau2e%2B7BuHZVCLish%2FMai%2Bptt22NdVXgiT5Ocv3SzS8t3fQIBqKkrchT3DKr5pPnOGKii8kDU5PXtoD%2BBGx65OJEC5ACFMadO3ySB1Vf7CVF67bMjhrQr%2BMR12chE7zLLQbtcMlg2fGee7EDCkOeXDVyP82kxwWe5dYdK05dYPBhF3wKZVfzwHvp%2FWllvMAq5GOM3ScxE8dKr6GSWZ3t1AS%2FopfD6G7iwEObX7qCJ1QRBIGl2bk%2Bd%2FfjS5UhZGg%3D%3D"
+                     },
+                     {
+                        "name" : "adblocked",
+                        "value" : "undefined"
+                     },
+                     {
+                        "name" : "view_type",
+                        "value" : "widget"
+                     },
+                     {
+                        "name" : "p[]",
+                        "value" : "0"
+                     },
+                     {
+                        "name" : "p[]",
+                        "value" : "1"
+                     },
+                     {
+                        "name" : "p[]",
+                        "value" : "2"
+                     }
+                  ],
+                  "text" : "view=ktpAk9fagy7uI4Qqp5S6LCG0vp9yMRno8WN%252FopnZLO%252FbE7u9gqroEeP9uLiRT1mnL1prmzlGe6i0QSqTCdLoylVbX2T%252BqOrdQzNlj6K5cmZjnCACAZNc%252FEQQAplqiu9jNAKc2tvrtP8E0cNRLJnTFKjp0YrG%252BgAQeYdFoQG8iLKRMNdyhOXCq2%252BCreGHOex4r7VFaSG7vSWTyeWTbhH%252BaaB682qml8TpiFlZFnvY%252BMZ7BjJRRpQ0VtJUhR3nckZx2EGjGQasE1NJpnnDDlOZsIaN1f1xeHniDKJ4FAn8cTldyfQseo8y4EsGohkJ9sPNcsf%252FTCxgha13bTibcIBPDiO%252BoLdfqU3XDDfbxrSX0%252BEe5ZD%252FaYZQz2J0Q8qN8MOT3dOqHaS7ho290%252FeotmaKVZ6U%252FWaCgMZu8p2My8IsiMslZcPnfk479LZXBigeoqd5UsSvjjYIRMAOILw%252BeJB3PX5vb9ST4btnbg7JrEhj9aLwAdEAr%252BBn07LricYHHS2dcPH1x433Pj%252Bva%252B74bImCD%252BgrYs5G4SCDz0swgtiOT9g3DDP1wFkzgu8%252BrRPcz3H%252FUIgpGI73j14hrSIM42zpW5bXMcNNLWwI9cMY0VqYBpUuFcW1G5%252BUnO7%252FuVWMZxZ7R7%252FX1uNuIJtI8ehv48Qr3TNROEXjZlpUxWcN6i9RaeAAMGhAZx1ygxaHCoYdQN5WN09jS1wlklqLuZkKS9HOJggcHsKUDoUhMOAG%252BBoLqT%252FJn%252Bnq8AiUKN5fDdfVtN6DIZiRZ4J9EyssoI%252B3Sdg8Y0B%252Bn3V7vjn9soWOjlsNKnFoLp6m2gseWskq3LYRQlipoAMfXin2x6Nyaqzd9NlARY%252BwvgLqVdNUpQ39cFc6brUmOU%252FopHhW%252FlOI7Dw... [truncated to save space (1652 more bytes)]"
+               },
+               "queryString" : [],
+               "url" : "https://trends.revcontent.com/event/view"
+            },
+            "response" : {
+               "_error" : "canceled",
+               "_errorText" : "net::ERR_ABORTED",
+               "bodySize" : -1,
+               "content" : {
+                  "mimeType" : "",
+                  "size" : 0
+               },
+               "cookies" : [],
+               "headers" : [
+                  {
+                     "name" : "access-control-allow-credentials",
+                     "value" : "true"
+                  },
+                  {
+                     "name" : "access-control-allow-headers",
+                     "value" : "Content-Type"
+                  },
+                  {
+                     "name" : "access-control-allow-origin",
+                     "value" : "https://code.revcontent.com"
+                  },
+                  {
+                     "name" : "Connection",
+                     "value" : "keep-alive"
+                  },
+                  {
+                     "name" : "Date",
+                     "value" : "Thu, 01 Dec 2022 22:47:27 GMT"
+                  },
+                  {
+                     "name" : "Server",
+                     "value" : "openresty"
+                  },
+                  {
+                     "name" : "Strict-Transport-Security",
+                     "value" : "max-age=931536000; includeSubDomains"
+                  },
+                  {
+                     "name" : "X-RC-Region",
+                     "value" : "us-east-1f"
+                  }
+               ],
+               "headersSize" : -1,
+               "httpVersion" : "HTTP/1.1",
+               "redirectURL" : "",
+               "status" : 204,
+               "statusText" : "No Content"
+            },
+            "serverIPAddress" : "34.225.144.85",
+            "startedDateTime" : "2022-12-01T22:47:27.8022Z",
+            "time" : 158.8,
+            "timings" : {
+               "_blocked_queueing" : 1.3,
+               "blocked" : 1.3,
+               "connect" : 110.6,
+               "dns" : 0,
+               "receive" : 2.3,
+               "send" : 0.2,
+               "ssl" : 74.2,
+               "wait" : 44.5
+            }
+         }
+      ],
+      "pages" : [
+         {
+            "_resourceUsage" : [
+               [
+                  0,
+                  0,
+                  173.4,
+                  0,
+                  0
+               ],
+               [
+                  100,
+                  7.7,
+                  172.3,
+                  11728,
+                  1584
+               ],
+               [
+                  107,
+                  28.4,
+                  173.8,
+                  24455,
+                  741
+               ],
+               [
+                  100,
+                  38.2,
+                  177.6,
+                  59406,
+                  2896
+               ],
+               [
+                  100,
+                  20.3,
+                  177.7,
+                  704,
+                  1474
+               ],
+               [
+                  100,
+                  7.6,
+                  177.2,
+                  6178,
+                  1538
+               ],
+               [
+                  100,
+                  2.8,
+                  177.2,
+                  66,
+                  0
+               ],
+               [
+                  100,
+                  68.9,
+                  192.6,
+                  35609,
+                  2414
+               ],
+               [
+                  100,
+                  81.3,
+                  202.2,
+                  11948,
+                  4187
+               ],
+               [
+                  100,
+                  100,
+                  214.3,
+                  116942,
+                  10048
+               ],
+               [
+                  100,
+                  61.6,
+                  212.4,
+                  0,
+                  215
+               ],
+               [
+                  100,
+                  0.3,
+                  212.4,
+                  70,
+                  70
+               ],
+               [
+                  100,
+                  18.6,
+                  209.9,
+                  0,
+                  0
+               ],
+               [
+                  100,
+                  0.9,
+                  209.9,
+                  0,
+                  0
+               ],
+               [
+                  100,
+                  0.5,
+                  208.7,
+                  0,
+                  54
+               ],
+               [
+                  100,
+                  1,
+                  208.7,
+                  0,
+                  0
+               ],
+               [
+                  100,
+                  6.3,
+                  209.2,
+                  12006,
+                  2754
+               ],
+               [
+                  100,
+                  6.6,
+                  208.3,
+                  1498,
+                  7098
+               ]
+            ],
+            "id" : "page_0",
+            "pageTimings" : {
+               "_firstContentfulPaint" : 779,
+               "_firstPaint" : 778.438,
+               "_fullyLoaded" : 1779,
+               "_largestContentfulPaint" : 1065,
+               "_timeToInteractive" : 987.391,
+               "onContentLoad" : 302.266,
+               "onLoad" : 417
+            },
+            "startedDateTime" : "2022-12-01T22:47:26.1822Z",
+            "title" : "Widget Template"
+         }
+      ],
+      "version" : "1.2"
+   }
+}
