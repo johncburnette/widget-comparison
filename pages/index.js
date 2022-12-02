@@ -1,25 +1,9 @@
-import { Grid, Card, Text, Container, Divider } from '@nextui-org/react';
+// import { Grid, Card, Text, Container, Divider } from '@nextui-org/react';
 import Layout from '../components/Layout/Index';
 import Section from '../components/Section';
 import SizeComparison from '../components/SizeComparison';
 import { getLighthouseData } from './api/lighthouse';
 import { getNetworkData } from './api/requests';
-
-const MockItem = ({ text }) => {
-  return (
-    <Card css={{ h: '$24', $$cardColor: '$colors$primary' }}>
-      <Card.Body>
-        <Text
-          h6
-          size={15}
-          color="white"
-          css={{ mt: 0 }}>
-          {text}
-        </Text>
-      </Card.Body>
-    </Card>
-  );
-};
 
 export default function Home({
   sbinnalaLighthouse,
@@ -30,9 +14,9 @@ export default function Home({
   const sbinnalaAuditItems = sbinnalaLighthouse.audits;
   const sbinnalaItems = Object.entries(sbinnalaAuditItems).map(
     ([key, value]) => (
-      <Grid key={`sb-${key}`}>
+      <div key={`sb-${key}`}>
         <Section data={value} />
-      </Grid>
+      </div>
     )
   );
   const sbinnalaPayload = sbinnalaNetworkRequests.payload;
@@ -40,97 +24,109 @@ export default function Home({
   const performanteAuditItems = performanteLighthouse.audits;
   const performanteItems = Object.entries(performanteAuditItems).map(
     ([key, value]) => (
-      <Grid key={`pf-${key}`}>
+      <div key={`pf-${key}`}>
         <Section data={value} />
-      </Grid>
+      </div>
     )
   );
   const performantePayload = performanteNetworkRequests.payload;
 
   return (
     <Layout>
-      <Grid.Container gap={2}>
-        <Grid direction="column">
-          <Grid>
-            <Text h1>
-              Web performance is pretty neat, let&apos;s talk about it.
-            </Text>
-            <Text size={22}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Interdum posuere lorem ipsum dolor. Fringilla est ullamcorper eget
-              nulla facilisi etiam dignissim diam quis. Pretium vulputate sapien
-              nec sagittis. Odio facilisis mauris sit amet massa vitae. Commodo
-              quis imperdiet massa tincidunt nunc pulvinar sapien et ligula.
-              Aliquet risus feugiat in ante metus. A cras semper auctor neque.
-              Lacus vestibulum sed arcu non odio euismod lacinia at. Parturient
-              montes nascetur ridiculus mus mauris vitae ultricies. Faucibus
-              scelerisque eleifend donec pretium vulputate sapien nec sagittis.
-            </Text>
-          </Grid>
-          <Grid>
-            <Text size={22}>
-              Risus ultricies tristique nulla aliquet enim tortor at auctor.
-              Consequat ac felis donec et odio pellentesque diam. Egestas dui id
-              ornare arcu odio. Turpis massa sed elementum tempus. Bibendum
-              neque egestas congue quisque egestas diam. Dignissim convallis
-              aenean et tortor at risus viverra. Tortor condimentum lacinia quis
-              vel eros donec ac. Proin sed libero enim sed. Vestibulum lectus
-              mauris ultrices eros in. Mattis aliquam faucibus purus in massa
-              tempor. Elit duis tristique sollicitudin nibh. Purus viverra
-              accumsan in nisl nisi scelerisque eu ultrices vitae. In est ante
-              in nibh mauris cursus mattis molestie. Nunc aliquet bibendum enim
-              facilisis gravida neque. Mi quis hendrerit dolor magna. Aliquam
-              malesuada bibendum arcu vitae. Natoque penatibus et magnis dis.
-              Condimentum mattis pellentesque id nibh tortor. Eu consequat ac
-              felis donec. Sit amet consectetur adipiscing elit duis tristique
-              sollicitudin nibh.
-            </Text>
-          </Grid>
-          <Grid>
-            <Text h1>Comparisons</Text>
-            <Text size={22}>
-              Risus ultricies tristique nulla aliquet enim tortor at auctor.
-              Consequat ac felis donec et odio pellentesque diam. Egestas dui id
-              ornare arcu odio. Turpis massa sed elementum tempus. Bibendum
-              neque egestas congue quisque egestas diam. Dignissim convallis
-              aenean et tortor at risus viverra. Tortor condimentum lacinia quis
-              vel eros donec ac. Proin sed libero enim sed. Vestibulum lectus
-              mauris ultrices eros in. Mattis aliquam faucibus purus in massa
-              tempor. Elit duis tristique sollicitudin nibh. Purus viverra
-              accumsan in nisl nisi scelerisque eu ultrices vitae. In est ante
-              in nibh mauris cursus mattis molestie. Nunc aliquet bibendum enim
-              facilisis gravida neque. Mi quis hendrerit dolor magna. Aliquam
-              malesuada bibendum arcu vitae. Natoque penatibus et magnis dis.
-              Condimentum mattis pellentesque id nibh tortor. Eu consequat ac
-              felis donec. Sit amet consectetur adipiscing elit duis tristique
-              sollicitudin nibh.
-            </Text>
-          </Grid>
-        </Grid>
-
-        <Grid
-          xs={6}
-          direction="column">
-          <Grid>
-            <Text h2>Current Ad Code</Text>
-          </Grid>
-          <SizeComparison base={performantePayload} />
-          {performanteItems}
-        </Grid>
-        <Grid
-          xs={6}
-          direction="column">
-          <Grid>
-            <Text h2>New Ad Code</Text>
-          </Grid>
-          <SizeComparison
-            base={sbinnalaPayload}
-            comparison={performantePayload}
-          />
-          {sbinnalaItems}
-        </Grid>
-      </Grid.Container>
+      <div className="pt-20">
+        <h1 className="text-5xl font-bold text-green-600">
+          Web performance is neat. Let&apos;s talk about it.
+        </h1>
+        <p className="text-3xl pt-5 text-gray-500">
+          Web performance is something we think about a lot at Revcontent. It
+          could be finding ways to serve images at a smaller file size without
+          degrading quality. It could also be exploring how to reduce resource
+          usage or improve response times for an API or other service. Whatever
+          the case may be, performance is something we are passionate about.
+          Recently, our ad code has been something we&apos;re working on to
+          improve. While pretty effective in its current state, it could always
+          be better and that&apos;s what we&apos;ve set out to do.
+        </p>
+      </div>
+      <div className="pt-20">
+        <h2 className="text-2xl font-bold">Size Comparisons</h2>
+        <p className="pt-3 text-lg">
+          Javascript bundle size is a big concern these days. Frameworks like
+          React or Vue handle lazy loading and code splitting well, but they
+          don&apos;t (nor can they) address reducing total payload size.
+          Features like code splitting take a bundle and split it up into
+          different files (called chunks) that are loaded when they&apos;re
+          needed. This can improve initial load times, but the amount of data
+          transferred ultimately remains the same. The only difference is that
+          instead of a single 2MB file being requested, it might request 4-5
+          files that add up to 2MB. In the end, 2MB worth of data is downloaded
+          regardless of whether code splitting is implemented or not.
+        </p>
+        <p className="pt-3 text-lg">
+          If you have a fast connection, this is generally not an issue.
+          However, experts estimate that nearly 60% of all Internet traffic
+          comes from a mobile device. And while cellular networks have improved
+          greatly over the years, they still have a long way to go. Many
+          providers still only have 3G coverage in certain areas. A webpage that
+          takes less than half a second to load on a fiber or cable connection
+          may take over 5 seconds to load on your average 3G connection. This is
+          why it&apos;s critical to try to keep bundle sizes as small as
+          possible and it is one of our primary goals with our updated ad code.
+          We spent a great deal of time looking at where and how we could
+          provide the features we do in a way that generates less compiled code.
+          It meant scrutinizing every aspect of the packages, patterns, and
+          logic we use to generate what you see as a widget. Through a lot of
+          testing, trial, and error we were able to reduce our size by over
+          38kb. This brought our updated ad code bundle size to a very lean
+          26kb.
+        </p>
+        <div className="p-5 lg:p-20">
+          <div className="grid sm:grid-cols-1 lg:grid-cols-2 p-10 gap-4 bg-gray-100 m-15 shadow-md">
+            <div>
+              <h2 className="text-xl font-bold">Current Ad Code</h2>
+              <SizeComparison base={performantePayload} />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold">New Ad Code</h2>
+              <SizeComparison
+                base={sbinnalaPayload}
+                comparison={performantePayload}
+              />
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold">Lighthouse Performance</h2>
+        <p className="pt-3 text-lg">
+          Another aspect we have focused on is rendering speed and efficiency.
+          Ad code has some unique concerns compared to your average web
+          application. It does not run as a standalone service or application.
+          Instead, it resides on a web page alongside other libraries and logic
+          in a shared space. It must be able to exist in harmony and perform its
+          duties quickly and efficiently. Resource usage (memory, CPU, etc.)
+          becomes significantly more of a concern because the resources provided
+          to a page are shared among all of the logic that runs on the page.
+          While we cannot control how resource intensive another library is, we
+          can ensure that ours is as fast and efficient as possible. To help
+          control this, we&apos;ve invested a lot of time in Lighthouse
+          profiling.
+        </p>
+        <p className="pt-3 text-lg">
+          Lighthouse is a site auditing tool commonly used across the web to
+          provide feedback on how well a page is optimized. It provides data
+          that outlines how well or poorly a page is optimized. Faster time to
+          interactive, faster content paint, and lower blocking times are just
+          some of the improvements coming from our updated ad code. To help keep
+          things on track, we&apos;ve integrated Lighthouse testing into our
+          development workflows. This helps us track and understand how
+          potential changes in our code affect our performance goals.
+        </p>
+        <div className="sm:p-5 lg:p-20">
+          <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-2">
+            <div>{performanteItems}</div>
+            <div>{sbinnalaItems}</div>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }

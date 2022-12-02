@@ -1,17 +1,11 @@
-import { Container, useTheme } from '@nextui-org/react';
 import Navigation from './Navigation';
 
 const Layout = ({ children }) => {
-  const { theme } = useTheme();
   return (
-    <Container
-      fluid
-      css={{
-        padding: 0
-      }}>
+    <div className="flex flex-col">
       <Navigation />
-      <Container>{children}</Container>
-    </Container>
+      <div className="container mx-auto p-6">{children}</div>
+    </div>
   );
 };
 

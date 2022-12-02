@@ -1,5 +1,3 @@
-import { Button, Card, Container, Grid, Link, Text } from '@nextui-org/react';
-
 const formatDescription = content => {
   const mainPart = content?.split(' [Learn more]')[0];
   const parts = /\[([^\]]+)\]\(([^\)]+)\)/.exec(content);
@@ -15,41 +13,22 @@ const Section = ({ data }) => {
   const { text, url, linkText } = formatDescription(data.description);
 
   return (
-    <Card>
-      <Card.Header>
-        <Text
-          size={18}
-          b>
-          {data.title}
-        </Text>
-      </Card.Header>
-      <Card.Divider />
-      <Card.Body>
-        <Text
-          h1
-          color="primary"
-          size={72}>
-          {data.displayValue}
-        </Text>
-      </Card.Body>
-      <Card.Divider />
-      <Card.Footer>
-        <Container
-          fluid
-          css={{
-            padding: 0
-          }}>
-          <Text transform="full-width">{text}</Text>
-        </Container>
-        <Button
-          size="xs"
-          as={Link}
+    <div className="bg-gray-100 m-5 p-5 rounded flex flex-column items-center shadow-lg">
+      <div>
+        <h3 className="text-xl font-bold">{data.title}</h3>
+        <p className="pb-5 text-sm text-gray-600">{text}</p>
+        <a
+          className="text-green-600 font-bold"
           target="_blank"
+          rel="noreferrer"
           href={url}>
           {linkText}
-        </Button>
-      </Card.Footer>
-    </Card>
+        </a>
+      </div>
+      <p className="text-4xl font-medium text-green-600 pl-10">
+        {data.displayValue}
+      </p>
+    </div>
   );
 };
 
