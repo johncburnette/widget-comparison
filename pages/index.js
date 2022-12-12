@@ -72,7 +72,7 @@ export default function Home({
           providers still only have 3G coverage in certain areas. A webpage that
           needs to download 5MB worth of data to display takes a minimal amount
           of time on a cable or fiber optic connection. However, it can take
-          several seconds for if signal quality is poor. In the worst case
+          several seconds if cellular signal quality is poor. In the worst case
           scenario, the connection times out and the page never loads at all.
           This is why it is critical to not only leverage lazy loading and code
           splitting, but also keep bundle sizes as small as possible. As such,
