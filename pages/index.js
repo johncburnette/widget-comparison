@@ -52,33 +52,37 @@ export default function Home({
         <h2 className="text-2xl font-bold">Size Comparisons</h2>
         <p className="pt-3 text-lg">
           Javascript bundle size is a big concern these days. Frameworks like
-          React or Vue handle lazy loading and code splitting well, but they
-          don&apos;t (nor can they) address reducing total payload size.
-          Features like code splitting take a bundle and split it up into
-          different files (called chunks) that are loaded when they&apos;re
-          needed. This can improve initial load times, but the amount of data
-          transferred ultimately remains the same. The only difference is that
-          instead of a single 2MB file being requested, it might request 4-5
-          files that add up to 2MB. In the end, 2MB worth of data is downloaded
-          regardless of whether code splitting is implemented or not.
+          React or Vue handle lazy loading and code splitting well, but they do
+          not address reducing total payload size. Total payload size is the sum
+          of all data that needs to be downloaded to display a webpage or other
+          resource (a widget in this case). This includes the Javascript bundle,
+          data received from API requests, and any image/video assets that need
+          to be displayed. Even with the practice of code splitting where
+          bundles are split up into multiple files (called chunks), the amount
+          of data transferred remains the same. The only difference is that
+          instead of a single 2MB file being downloaded, 4-5 files that total
+          2MB in size are downloaded. Initial load times are improved, but the
+          total payload size remains the same.
         </p>
         <p className="pt-3 text-lg">
-          If you have a fast connection, this is generally not an issue.
+          If you have a fast connection, this may not seem like a big deal.
           However, experts estimate that nearly 60% of all Internet traffic
           comes from a mobile device. And while cellular networks have improved
           greatly over the years, they still have a long way to go. Many
           providers still only have 3G coverage in certain areas. A webpage that
-          takes less than half a second to load on a fiber or cable connection
-          may take over 5 seconds to load on your average 3G connection. This is
-          why it&apos;s critical to try to keep bundle sizes as small as
-          possible and it is one of our primary goals with our updated ad code.
-          We spent a great deal of time looking at where and how we could
-          provide the features we do in a way that generates less compiled code.
-          It meant scrutinizing every aspect of the packages, patterns, and
-          logic we use to generate what you see as a widget. Through a lot of
-          testing, trial, and error we were able to reduce our size by over
-          38kb. This brought our updated ad code bundle size to a very lean
-          26kb.
+          needs to download 5MB worth of data to display takes a minimal amount
+          of time on a cable or fiber optic connection. However, it can take
+          several seconds for if signal quality is poor. In the worst case
+          scenario, the connection times out and the page never loads at all.
+          This is why it is critical to not only leverage lazy loading and code
+          splitting, but also keep bundle sizes as small as possible. As such,
+          this became one of our primary goals for our updated ad code. We spent
+          a great deal of time looking at where and how we could provide the
+          features we do in a way that generates less compiled code. It meant
+          scrutinizing every aspect of the packages, patterns, and logic we use
+          to generate what you see as a widget. Through a lot of testing, trial,
+          and error we were able to reduce our size by over 38kb. This brought
+          our updated ad code bundle size to a very lean 26kb.
         </p>
         <div className="p-5 lg:p-20">
           <div className="grid sm:grid-cols-1 lg:grid-cols-2 p-10 gap-4 bg-gray-100 m-15 shadow-md">
