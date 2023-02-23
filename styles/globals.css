@@ -49,3 +49,16 @@
 .pub-link.active {
   background: #ff6f61!important;
 }
+
+.pub-footer {
+  background: black;
+  color: white;
+}
+
+.pub-footer-title {
+  color: #fff;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 3px double #fff;
+}

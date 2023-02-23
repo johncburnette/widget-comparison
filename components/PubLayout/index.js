@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
+import PubFooter from './PubFooter';
 import PubNav from './PubNav';
 const PubLayout = ({ children }) => {
   return (
     <div className="flex flex-col">
-      <div className="pub-contact flex py-2">
+      <div className="pub-contact flex flex-wrap py-2">
         <div className="container mx-auto">
-          <div className="flex">
-            <div className="flex self-start flex-1">
+          <div className="flex items-center justify-center flex-wrap">
+            <div className="flex py-2 sm:py-0 sm:flex-1">
               <a
                 className="px-4"
                 href="#">
@@ -19,14 +20,14 @@ const PubLayout = ({ children }) => {
                 +012 345 6789
               </a>
             </div>
-            <div className="self-end px-4">
+            <div className="sm:self-end px-4">
               About / Privacy / Terms / Contact
             </div>
           </div>
         </div>
       </div>
-      <div className="container mx-auto p-4 flex items-stretch">
-        <div className="flex justify-start items-center basis-1/4">
+      <div className="container mx-auto p-4 flex flex-wrap justify-center sm:justify-start items-stretch">
+        <div className="flex justify-center sm:justify-start items-center sm:basis-1/4">
           <img
             className="logo-img "
             src="/images/pub/logo.png"
@@ -34,14 +35,14 @@ const PubLayout = ({ children }) => {
           />
         </div>
 
-        <div className="flex justify-center items-center flex-1">
+        <div className="flex justify-center items-center py-2 sm:py-0 sm:basis-1/2">
           <img
             className="ad-img"
             src="images/pub/ads-1.jpg"
             alt=""
           />
         </div>
-        <div className="flex items-center basis-1/4">
+        <div className="flex items-stretch py-2 sm:py-0 sm:items-center w-full sm:basis-1/4">
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="username"
@@ -50,8 +51,8 @@ const PubLayout = ({ children }) => {
         </div>
       </div>
       <PubNav />
-      <div className="container mx-auto p-4 flex">
-        <div className="basis-2/3">
+      <div className="container mx-auto p-4 flex flex-wrap">
+        <div className="lg:basis-2/3">
           <img
             className="min-w-full"
             src="/images/pub/news-825x525.jpg"
@@ -138,7 +139,7 @@ const PubLayout = ({ children }) => {
           </p>
           {children}
         </div>
-        <div className="basis-1/3 pl-8">
+        <div className="md:basis-1/3 sm:pl-8">
           <div>
             <h2 class="text-3xl pub-nl-title">In This Category</h2>
             <div className="flex items-center py-2">
@@ -271,6 +272,7 @@ const PubLayout = ({ children }) => {
             alt="Image"></img>
         </div>
       </div>
+      <PubFooter />
     </div>
   );
 };
