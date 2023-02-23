@@ -9,7 +9,8 @@ export default function Revcontent() {
         id="adcode"
         data-widget-width="600"
         data-pub-id="78861"
-        data-widget-id="269155"></div>
+        data-widget-id="269155"
+        data-testing-enabled></div>
       <Script
         src="https://delivery.revcontent.com/78861/269155/widget.js"
         async></Script>
