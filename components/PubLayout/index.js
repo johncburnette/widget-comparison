@@ -139,7 +139,7 @@ const PubLayout = ({ children }) => {
           </p>
           {children}
         </div>
-        <div className="md:basis-1/3 sm:pl-8">
+        <div className="md:basis-1/3 sm:pl-8 hidden sm:flex sm:flex-col">
           <div>
             <h2 className="text-3xl pub-nl-title">In This Category</h2>
             <div className="flex items-center py-2">

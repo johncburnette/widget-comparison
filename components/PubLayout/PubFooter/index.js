@@ -87,7 +87,7 @@ const PubFooter = () => {
             placeholder="Your email here"></input>
         </div>
       </div>
-      <div className="container flex mx-auto flex flex-wrap py-8 flex-col justify-center items-center sm:flex-row">
+      <div className="container hidden sm:flex mx-auto flex flex-wrap py-8 flex-col justify-center items-center sm:flex-row">
         <a
           className="px-4"
           href="">
