@@ -62,3 +62,14 @@
   margin-bottom: 25px;
   border-bottom: 3px double #fff;
 }
+
+.pub-footer-link {
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.pub-footer-link:hover {
+  color: #ff6f61;
+  
+}
