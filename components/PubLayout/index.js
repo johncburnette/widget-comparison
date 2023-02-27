@@ -16,6 +16,15 @@ const PubLayout = ({ children }) => {
   }
 
   const isMobile = device === 'mobile';
+  const headerBannerSizes = isMobile
+    ? {
+        width: 328,
+        height: 55
+      }
+    : {
+        width: 600,
+        height: 100
+      };
 
   return (
     <div className="flex flex-col">
@@ -55,6 +64,8 @@ const PubLayout = ({ children }) => {
           <img
             className="ad-img"
             src="images/pub/ads-1.jpg"
+            width={headerBannerSizes.width}
+            height={headerBannerSizes.height}
             alt=""
           />
         </div>
