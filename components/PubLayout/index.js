@@ -65,7 +65,7 @@ const PubLayout = ({ children }) => {
             className="ad-img"
             src="images/pub/ads-1.jpg"
             width={headerBannerSizes.width}
-            height={headerBannerSizes.height}
+            height={headerBannerSizes}
             alt=""
           />
         </div>
@@ -87,20 +87,8 @@ const PubLayout = ({ children }) => {
             ratio={0.63}
             parentWidth={width}
           />
-          <h1
-            style={{
-              fontSize: '36px',
-              lineHeight: '40px',
-              paddingTop: '24px',
-              paddingBottom: '24px'
-            }}>
-            Lorem ipsum dolor sit amet
-          </h1>
-          <p
-            style={{
-              paddingTop: '8px',
-              paddingBottom: '8px'
-            }}>
+          <h1 className="py-6 text-4xl">Lorem ipsum dolor sit amet</h1>
+          <p className="py-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             molestie, lorem eu eleifend bibendum, augue purus mollis sapien, non
             rhoncus eros leo in nunc. Donec a nulla vel turpis consectetur
