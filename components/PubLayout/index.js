@@ -150,7 +150,7 @@ const PubLayout = ({ children }) => {
             <h2 className="text-3xl pub-nl-title">In This Category</h2>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-1.jpg"
                 alt=""
               />
@@ -160,7 +160,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-2.jpg"
                 alt=""
               />
@@ -170,7 +170,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-3.jpg"
                 alt=""
               />
@@ -180,7 +180,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-4.jpg"
                 alt=""
               />
@@ -190,7 +190,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-5.jpg"
                 alt=""
               />
@@ -200,7 +200,7 @@ const PubLayout = ({ children }) => {
             </div>
           </div>
           <img
-            className="py-10 min-w-full"
+            className="py-10 min-w-full hidden sm:inline-flex"
             src="/images/pub/ads-2.jpg"
             alt="Image"></img>
           <div>
@@ -233,7 +233,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-2.jpg"
                 alt=""
               />
@@ -243,7 +243,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-3.jpg"
                 alt=""
               />
@@ -253,7 +253,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-4.jpg"
                 alt=""
               />
@@ -263,7 +263,7 @@ const PubLayout = ({ children }) => {
             </div>
             <div className="flex items-center py-2">
               <img
-                className="pub-nl-img"
+                className="pub-nl-img hidden sm:inline-flex"
                 src="/images/pub/news-350x223-5.jpg"
                 alt=""
               />
@@ -273,7 +273,7 @@ const PubLayout = ({ children }) => {
             </div>
           </div>
           <img
-            className="py-10 min-w-full"
+            className="py-10 min-w-full hidden sm:inline-flex"
             src="/images/pub/ads-2.jpg"
             alt="Image"></img>
         </div>
