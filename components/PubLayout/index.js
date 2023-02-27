@@ -61,6 +61,7 @@ const PubLayout = ({ children }) => {
           className="lg:basis-2/3">
           <ResizableImage
             src="/images/pub/news-825x525.jpg"
+            ratio={0.63}
             parentWidth={width}
           />
           <h1 className="text-4xl py-6">Lorem ipsum dolor sit amet</h1>
