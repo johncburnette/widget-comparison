@@ -76,8 +76,20 @@ const PubLayout = ({ children }) => {
             ratio={0.63}
             parentWidth={width}
           />
-          <h1 className="text-4xl py-6">Lorem ipsum dolor sit amet</h1>
-          <p className="py-2">
+          <h1
+            style={{
+              fontSize: '2.25rem',
+              lineHeight: '2.5rem',
+              paddingTop: '1.5rem',
+              paddingBottom: '1.5rem'
+            }}>
+            Lorem ipsum dolor sit amet
+          </h1>
+          <p
+            style={{
+              paddingTop: '0.5rem',
+              paddingBottom: '0.5rem'
+            }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             molestie, lorem eu eleifend bibendum, augue purus mollis sapien, non
             rhoncus eros leo in nunc. Donec a nulla vel turpis consectetur
