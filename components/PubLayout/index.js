@@ -78,17 +78,17 @@ const PubLayout = ({ children }) => {
           />
           <h1
             style={{
-              fontSize: '2.25rem',
-              lineHeight: '2.5rem',
-              paddingTop: '1.5rem',
-              paddingBottom: '1.5rem'
+              fontSize: '36px',
+              lineHeight: '40px',
+              paddingTop: '24px',
+              paddingBottom: '24px'
             }}>
             Lorem ipsum dolor sit amet
           </h1>
           <p
             style={{
-              paddingTop: '0.5rem',
-              paddingBottom: '0.5rem'
+              paddingTop: '8px',
+              paddingBottom: '8px'
             }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             molestie, lorem eu eleifend bibendum, augue purus mollis sapien, non
