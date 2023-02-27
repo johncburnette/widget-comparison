@@ -8,6 +8,8 @@ const PubSideBar = ({ isMobile = false }) => {
         <div className="flex items-center py-2">
           <img
             className="pub-nl-img hidden sm:inline-flex"
+            width="145"
+            height="92"
             src="/images/pub/news-350x223-1.jpg"
             alt=""
           />
@@ -19,6 +21,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-2.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -29,6 +33,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-3.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -39,6 +45,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-4.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -49,6 +57,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-5.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -83,6 +93,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img"
             src="/images/pub/news-350x223-1.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -93,6 +105,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-2.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -103,6 +117,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-3.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -113,6 +129,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-4.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
@@ -123,6 +141,8 @@ const PubSideBar = ({ isMobile = false }) => {
           <img
             className="pub-nl-img hidden sm:inline-flex"
             src="/images/pub/news-350x223-5.jpg"
+            width="145"
+            height="92"
             alt=""
           />
           <div className="px-4">
