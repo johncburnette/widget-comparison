@@ -65,7 +65,7 @@ const PubLayout = ({ children }) => {
             className="ad-img"
             src="images/pub/ads-1.jpg"
             width={headerBannerSizes.width}
-            height={headerBannerSizes}
+            height={headerBannerSizes.height}
             alt=""
           />
         </div>
