@@ -1,8 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
+import ResizableImage from '../ResizableImage';
+import useResizeObserver from '../ResizableImage/hooks/useResizeObserver';
 import PubFooter from './PubFooter';
 import PubNav from './PubNav';
 const PubLayout = ({ children }) => {
+  const [columnRef, { width, height } = {}] = useResizeObserver();
+
   return (
     <div className="flex flex-col">
       <div className="pub-contact flex flex-wrap py-2">
@@ -52,11 +56,12 @@ const PubLayout = ({ children }) => {
       </div>
       <PubNav />
       <div className="container mx-auto p-4 flex flex-wrap">
-        <div className="lg:basis-2/3">
-          <img
-            className="min-w-full"
+        <div
+          ref={columnRef}
+          className="lg:basis-2/3">
+          <ResizableImage
             src="/images/pub/news-825x525.jpg"
-            alt=""
+            parentWidth={width}
           />
           <h1 className="text-4xl py-6">Lorem ipsum dolor sit amet</h1>
           <p className="py-2">
