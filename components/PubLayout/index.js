@@ -43,7 +43,9 @@ const PubLayout = ({ children }) => {
       <div className="container mx-auto p-4 flex flex-wrap justify-center sm:justify-start items-stretch">
         <div className="flex justify-center sm:justify-start items-center sm:basis-1/4">
           <img
-            className="logo-img "
+            className="logo-img"
+            width="198"
+            height="60"
             src="/images/pub/logo.png"
             alt="Publisher News Today"
           />
